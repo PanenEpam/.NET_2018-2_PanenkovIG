@@ -1,0 +1,5 @@
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task1/obj/x86/Debug/Task1.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task1/bin/Debug/Task1.exe
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task1/bin/Debug/Task1.pdb
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task1/obj/x86/Debug/Task1.exe
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task1/obj/x86/Debug/Task1.pdb

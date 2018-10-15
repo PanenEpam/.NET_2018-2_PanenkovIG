@@ -1,0 +1,2 @@
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task3/obj/x86/Debug/Task3.csprojResolveAssemblyReference.cache
+/Users/admin/Documents/ epam/Tasks/Panenkov_Ilia_Task05/Task3/obj/x86/Debug/Task3.csproj.CoreCompileInputs.cache

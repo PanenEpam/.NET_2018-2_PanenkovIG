@@ -5,103 +5,98 @@ namespace Task1
 {
 	class User
 	{
-		public string Surname { 
-			get
-			{
-				return Surname;
-			}
+		
+		
+		private string surname;
+		public string Surname
+		{
+			get => surname;
+
 			set
 			{
-				if(string.IsNullOrEmpty(value))
+				if (string.IsNullOrWhiteSpace(value))
 				{
 					throw new AggregateException("String cannot be empty");
 				}
-			} 
+				this.surname = value;
+			}
 		}
 
-		public string Name { 
-			get
-			{
-				return Name;
-			}
+		private string name;
+		public string Name 
+		{
+			get => name;
+
 			set
 			{
 				if (string.IsNullOrEmpty(value))
                 {
                     throw new AggregateException("String cannot be empty");
                 }
+				this.name = value;
 			}
 		}
 
-		public string SecondName { get; set; }
+		private string secondName;
+		public string SecondName
+		{
+			get => secondName;
+			set => this.secondName = value;
+		}
 
-		public DateTime Date { 
-			get
-			{
-				return Date;
-			} 
+		private DateTime date_of_birth;
+		public DateTime Date_of_birth
+		{
+			get => date_of_birth;
+
 			set
 			{
-				
-		//		int year;
-		//		if (!Int32.TryParse(Console.ReadLine(), out year))
-		//		{
-		//			throw new ArgumentException("Not year");
-		//		}
-
-		//		if (year > 2018)
-		//		{
-		//			throw new ArgumentException("Not real year");
-		//		}
-
-		//		int month;
-		//		if (!Int32.TryParse(Console.ReadLine(), out month))
-  //              {
-  //                  throw new ArgumentException("Not month");
-  //              }
-
-		//		if (month > 12)
-  //              {
-  //                  throw new ArgumentException("Not real month");
-  //              }
-
-		//		int day;
-		//		if (!Int32.TryParse(Console.ReadLine(), out day))
-  //              {
-  //                  throw new ArgumentException("Not day");
-  //              }
-
-		//		if (day > 31)
-  //              {
-  //                  throw new ArgumentException("Not real day");
-  //              }
-		//		Date.Year = Convert.ToDateTime(year);
-		//		value.Month = month;
-		//		value.Day = day;
-		//	}
-		//}
-
-		public int Age { 
-			get
-			{
-				return Age;
-			}
-			set
-			{
-				if (!Int32.TryParse(Console.ReadLine(), out value))
+				if (value <= DateTime.Now && (age == default(int) || (age == DateTime.Now.Year - value.Year)))
 				{
-					throw new ArgumentException("Not ");
+					date_of_birth = value;
 				}
+				this.date_of_birth = value;
 			}
+		}
+
+		private int age;
+		public int Age
+		{
+			get => age;
+
+			set
+			{
+				if (value >= 0 && (age == default(int) || (age == DateTime.Now.Year - date_of_birth.Year)))
+				{
+					age = value;
+				}
+				this.age = value;
+			}
+		}
+
+		public void GetInfo()
+		{
+			Console.WriteLine($"Surname:{Surname}\nName: {Name}\nSecond name: {SecondName}\nBirthday: {Date_of_birth}\nAge: {Age}");
+		}
+	
+
+		public User(string surname, string name, string secondName, DateTime birhtday, int age)
+		{
+			this.Surname = surname;
+			this.Name = name;
+			this.SecondName = secondName;
+			this.Date_of_birth = birhtday;
+			this.age = age;
 		}
 	}
 
-    class MainClass
+	class MainClass
     {
-		
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+			User Oleg = new User("Ivanov", "Ivan", "Ivanovich", new DateTime(1998, 04, 1) ,20);
+			Oleg.GetInfo();
+
         }
     }
 }
