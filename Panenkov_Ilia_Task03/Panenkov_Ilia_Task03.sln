@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Panenkov_Ilia_Task03\Task1.csproj", "{235FBF01-50EF-47D0-917E-DD8BBE63DE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{6E672772-A0D2-4173-9112-64D49D2E2A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{A94B7A70-D7C7-468C-A6A9-01FE8EAC605F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{AA63EB48-7CEB-4CF3-B27E-0BE61EC2D225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{235FBF01-50EF-47D0-917E-DD8BBE63DE5D}.Debug|x86.ActiveCfg = Debug|x86
+		{235FBF01-50EF-47D0-917E-DD8BBE63DE5D}.Debug|x86.Build.0 = Debug|x86
+		{235FBF01-50EF-47D0-917E-DD8BBE63DE5D}.Release|x86.ActiveCfg = Release|x86
+		{235FBF01-50EF-47D0-917E-DD8BBE63DE5D}.Release|x86.Build.0 = Release|x86
+		{6E672772-A0D2-4173-9112-64D49D2E2A55}.Debug|x86.ActiveCfg = Debug|x86
+		{6E672772-A0D2-4173-9112-64D49D2E2A55}.Debug|x86.Build.0 = Debug|x86
+		{6E672772-A0D2-4173-9112-64D49D2E2A55}.Release|x86.ActiveCfg = Release|x86
+		{6E672772-A0D2-4173-9112-64D49D2E2A55}.Release|x86.Build.0 = Release|x86
+		{A94B7A70-D7C7-468C-A6A9-01FE8EAC605F}.Debug|x86.ActiveCfg = Debug|x86
+		{A94B7A70-D7C7-468C-A6A9-01FE8EAC605F}.Debug|x86.Build.0 = Debug|x86
+		{A94B7A70-D7C7-468C-A6A9-01FE8EAC605F}.Release|x86.ActiveCfg = Release|x86
+		{A94B7A70-D7C7-468C-A6A9-01FE8EAC605F}.Release|x86.Build.0 = Release|x86
+		{AA63EB48-7CEB-4CF3-B27E-0BE61EC2D225}.Debug|x86.ActiveCfg = Debug|x86
+		{AA63EB48-7CEB-4CF3-B27E-0BE61EC2D225}.Debug|x86.Build.0 = Debug|x86
+		{AA63EB48-7CEB-4CF3-B27E-0BE61EC2D225}.Release|x86.ActiveCfg = Release|x86
+		{AA63EB48-7CEB-4CF3-B27E-0BE61EC2D225}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
