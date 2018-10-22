@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{B4DFF55E-1E81-46F7-AD7A-F728D02A7A6F}</ProjectGuid>
+    <ProjectGuid>{B59FFA17-FDE8-45E0-A28F-B271835A73C3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Task2</RootNamespace>
     <AssemblyName>Task2</AssemblyName>
@@ -32,9 +32,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Main2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Round.cs" />
+    <Compile Include="ISeries.cs" />
+    <Compile Include="GeometricalProgression.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
