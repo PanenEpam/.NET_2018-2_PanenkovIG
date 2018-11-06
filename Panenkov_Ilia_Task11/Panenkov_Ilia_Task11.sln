@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj", "{17A14881-6BDD-4BA9-8591-5D070F3BFB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematic", "Mathematic\Mathematic.csproj", "{FA5B534D-2DCA-4F6C-85A0-61B639D04675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{809D3731-A718-48FB-9516-2B78D3AB0EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{E30F8F0A-070D-4841-AA5D-B994E0FE191D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17A14881-6BDD-4BA9-8591-5D070F3BFB99}.Debug|x86.ActiveCfg = Debug|x86
+		{17A14881-6BDD-4BA9-8591-5D070F3BFB99}.Debug|x86.Build.0 = Debug|x86
+		{17A14881-6BDD-4BA9-8591-5D070F3BFB99}.Release|x86.ActiveCfg = Release|x86
+		{17A14881-6BDD-4BA9-8591-5D070F3BFB99}.Release|x86.Build.0 = Release|x86
+		{FA5B534D-2DCA-4F6C-85A0-61B639D04675}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA5B534D-2DCA-4F6C-85A0-61B639D04675}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA5B534D-2DCA-4F6C-85A0-61B639D04675}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA5B534D-2DCA-4F6C-85A0-61B639D04675}.Release|x86.Build.0 = Release|Any CPU
+		{809D3731-A718-48FB-9516-2B78D3AB0EFD}.Debug|x86.ActiveCfg = Debug|x86
+		{809D3731-A718-48FB-9516-2B78D3AB0EFD}.Debug|x86.Build.0 = Debug|x86
+		{809D3731-A718-48FB-9516-2B78D3AB0EFD}.Release|x86.ActiveCfg = Release|x86
+		{809D3731-A718-48FB-9516-2B78D3AB0EFD}.Release|x86.Build.0 = Release|x86
+		{E30F8F0A-070D-4841-AA5D-B994E0FE191D}.Debug|x86.ActiveCfg = Debug|x86
+		{E30F8F0A-070D-4841-AA5D-B994E0FE191D}.Debug|x86.Build.0 = Debug|x86
+		{E30F8F0A-070D-4841-AA5D-B994E0FE191D}.Release|x86.ActiveCfg = Release|x86
+		{E30F8F0A-070D-4841-AA5D-B994E0FE191D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
