@@ -1,0 +1,7 @@
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\пользователь\Desktop\C#\Internal courses\Snake\snake-lesson-15-GameOver\Snake\Snake\obj\Debug\Snake.pdb
