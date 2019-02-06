@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{9EEDBED1-EEE8-47BC-A182-EA61C847F1C1}</ProjectGuid>
+    <ProjectGuid>{4B7604FA-6DC2-4B09-A7C6-74111A32AA22}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Games</RootNamespace>
-    <AssemblyName>Games</AssemblyName>
+    <RootNamespace>Snake</RootNamespace>
+    <AssemblyName>Snake</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,10 +34,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Walls.cs" />
-    <Compile Include="Food.cs" />
+    <Compile Include="Figure.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="HorizontalLine.cs" />
+    <Compile Include="VerticalLine.cs" />
     <Compile Include="Snake.cs" />
+    <Compile Include="Directoin.cs" />
+    <Compile Include="Food.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
